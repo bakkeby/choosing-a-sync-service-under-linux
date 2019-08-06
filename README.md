@@ -105,8 +105,6 @@ Zoho Docs comes across as fairly basic with very little configuration options.
 > :warning: Max file size of 250M
 >
 > :x: No Linux support
->
-> :information_source: A third party Linux client `ExpanDrive` might potentially be an option
 
 ### [![Strongspace](icons/strongspace.png)](https://strongspace.com/) [Strongspace](https://strongspace.com/)
 
@@ -435,6 +433,24 @@ Yandex Disk might be OK, but it lacked a bit the feature side for my needs.
 > :information_source: insync is not actually a service, but a standalone client that can talk to multiple cloud services, most notably Google Drive
 >
 > :x: Dereferences symlinks (if symlinked directory has not already been synced, i.e. exists in sync / backup)
+
+### [![ExpanDrive](icons/expandrive.png)](https://www.expandrive.com/) [ExpanDrive](https://www.expandrive.com/)
+
+> :heavy_check_mark: Linux support
+>
+> :information_source: Like insync, ExpanDrive is not actually a service, but a standalone client that can talk to multiple cloud services such as Strongspace, Dropbox, Google Drive, box, OneDrive, Amazon Drive, Nextcloud as well as several other options
+>
+> :information_source: No free option, 7 day trial
+>
+> :information_source: No files are stored locally; cloud storage files are accessible through a virtual drive as long as ExpanDrive is running and is connected
+>
+> :information_source: File permissions appear to be fixed at 755 (rwxr-xr-x) for all files
+>
+> :information_source: Practically no additional settings
+>
+> :x: No offline access
+>
+> :x: No sync option
 
 ### [![Bynder Orbit](icons/bynderorbit.png)](https://www.bynder.com) [Bynder Orbit](https://www.bynder.com)
 
