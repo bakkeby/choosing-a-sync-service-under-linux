@@ -632,7 +632,7 @@ As an epilogue let's take these experiences into account and revisit the service
 >
 > :heavy_check_mark: Preserves file permissions
 >
-> :x: Dereferences symlinks
+> :x: ~~Dereferences symlinks~~
 
 Pretty good actually, but not all good. Again we see a sync service that _dereferences_ symlinks.
 
@@ -647,3 +647,6 @@ When moving from my laptop to my desktop I happen to discover that what was a sy
 In conclusion following symlinks is something that only makes sense for one-way (upload/backup) solutions and not for two-way (bi-directional) sync solutions. I believe that so many cloud services get this wrong because they try to do both at the same time. There is undoubtedly also pressure to offer features that other more popular services do and I have seen many discussions arguing that following symlinks is justified because "Dropbox does this".
 
 My advice is to be clear about which of the three principles of sync solutions you need (sync, upload or download) and choose your sync service accordingly.
+
+---
+**Edit**: Turns out that Dropbox no longer dereferences symlinks since mid-2019 \[[ref](https://help.dropbox.com/installs-integrations/sync-uploads/symlinks)\]
