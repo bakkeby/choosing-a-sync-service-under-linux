@@ -1,4 +1,5 @@
 # Choosing a sync service for dotfiles, scripts and more under Linux
+###### by Stein Bakkeby, July 2019
 
 I happen to be one of those guys that have more than one computer, let alone more than one operating systems. Having certain configuration, scripts, documents and files synchronised across machines have become an integral part of my workflow over the years.
 
