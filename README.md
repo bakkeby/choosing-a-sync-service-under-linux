@@ -159,7 +159,7 @@ SparkleShare is a git based solution where synced files are preserved in a git r
 >
 > :x: No symlink support
 >
-> :information_source: They underlying software was released as [open source](https://launchpad.net/filesync-server)
+> :information_source: The underlying software was released as [open source](https://launchpad.net/filesync-server)
 
 ### [![SugarSync](icons/sugarsync.png)](https://www.sugarsync.com/) [SugarSync](https://www.sugarsync.com/)
 
@@ -275,7 +275,7 @@ SpiderOak ticks a _lot_ of boxes for me in terms of what their services offer an
 
 What turned out to be a major blocker for me was performance. Granted it will inevitably take more time to do things properly (secure, encrypted, zero knowledge) and I don't need my syncs to be blazingly fast. The problem was that I had used SpiderOak as a backup service for years and had ended up using something like 5TB of storage space. This means that if I wanted to set up SpiderOak on a new installation I had to go through a two-hour syndication process. In terms of sync it could take 5-10 minutes for a new or changed file to be updated on other sync endpoints. The syndication process also resulted in it being very time consuming to delete / purge data in a desperate attempt to try to free up disk space and improve performance.
 
-In the end my impression is that SpiderOak was designed with backup in mind and that the sync service was more of an afterthought. The performance issues that I encountered are exceptional and should not be a deterrent for trying this service out. I have a lot of respect for what they have accomplished in terms of security and privacy. My only recommendation in hindsight is that it would be better use SpiderOak as a dedicated backup or as a dedicated sync service. In my opinion they could very well have made two different applications / services out of it rather than having two in one.
+In the end my impression is that SpiderOak was designed with backup in mind and that the sync service was more of an afterthought. The performance issues that I encountered are exceptional and should not be a deterrent for trying this service out. I have a lot of respect for what they have accomplished in terms of security and privacy. My only recommendation in hindsight is that it would be better use SpiderOak either as a dedicated backup or as a dedicated sync service. In my opinion they could very well have made two different applications / services out of it rather than having two in one.
 
 While there is no symlink support at the very least the service just ignores them, which is something that I could live with.
 
@@ -347,7 +347,7 @@ Just including this as it offers some cloud storage and is sometimes referred to
 >
 > :heavy_check_mark: Support for symlinks in a non-dereferencing manner
 
-Yandex Disk might be OK, but it lacked a bit the feature side for my needs.
+Yandex Disk might be OK, but it lacked a bit on the feature side for my needs.
 
 ### [![eFileCabinet](icons/efilecabinet.png)](https://www.efilecabinet.com/) [eFileCabinet](https://www.efilecabinet.com/)
 
