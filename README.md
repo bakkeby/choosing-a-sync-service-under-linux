@@ -337,6 +337,31 @@ Resilio sounds interesting and has many similarities to Syncthing. Being a peer-
 
 Just including this as it offers some cloud storage and is sometimes referred to as a "Dropbox alternative".
 
+### [![FolderSync](icons/foldersync.png)](https://foldersync.io/) [FolderSync](https://foldersync.io/)
+
+> :heavy_check_mark: Linux support (Debian/Ubuntu)
+>
+> :heavy_check_mark: Two-way sync
+>
+> :heavy_check_mark: Selective sync
+>
+> :heavy_check_mark: Possibility to sync more than one directory
+>
+> :x: No continuous sync (sync at specific intervals, per minute being the most frequent option)
+>
+> :x: Maximum of one device per license (although you can buy many licenses)
+>
+> :information_source: Security and limitations depend on the file hosting services that you set this up with
+
+My impression is that this is primarily targeted at iPhone / Android users. There is a paid license per *device*, and the license needs to be renewed after two years if you want to continue receiving updates.
+
+From what I can tell they don't offer any file hosting, but instead piggy-back on other file hosting services and/or local hosting. In general FolderSync appear to be a very capable solution and having flexible options for how you want the sync to work.
+
+I think this makes a lot of sense if you have a mobile phone and want to be able to back up or sync some of your data to a local NAS or a file hosting service. Maybe less so if you want to just sync some hobby project directory across several laptops and desktop machines.
+
+I wasn't able to test so can't tell (yet) how it handles symlinks under Linux.
+
+
 ### [![Yandex Disk](icons/yandexdisk.png)](https://disk.yandex.com/) [Yandex Disk](https://disk.yandex.com/)
 
 > :heavy_check_mark: Linux support
